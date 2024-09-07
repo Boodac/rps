@@ -66,3 +66,7 @@ function playGame(){
 
 playGame();
 console.log("Your score: " + humanScore + " | Their Score : " + computerScore);
+if (humanScore > computerScore) {
+    console.log("You won the game!");
+}
+else console.log("Better luck next time. You lose.");
