@@ -15,7 +15,7 @@ choices.forEach((choice) => {
     const button = document.createElement("button");
     button.style = "padding: 1rem 2rem;border:1px solid black;border-radius:0.5rem;";
     button.textContent = choice.charAt(0).toUpperCase()+choice.slice(1);
-    button.addClassList = choice;
+    button.id = choice;
     button.addEventListener('click', () => {
         playRound(choice);
     })
