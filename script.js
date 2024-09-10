@@ -33,7 +33,7 @@ body.appendChild(resetBtn);
 // let's create the results display
 const results = document.createElement("div");
 results.classList.add = "results";
-results.style = "display: flex; flex-direction: column; justify-content: center; text-align: center";
+results.style = "display: flex; flex-direction: column; align-items:center";
 
 const tally = document.createElement("p");
 tally.classList.add = "tally";
